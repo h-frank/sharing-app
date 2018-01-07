@@ -17,7 +17,7 @@ public class Item {
     private String description;
     private Dimensions dimensions;
     private String status;
-    private String borrower;
+    private Contact borrower;
     protected transient Bitmap image;
     protected String image_base64;
     private String id;
@@ -28,7 +28,7 @@ public class Item {
         this.description = description;
         this.dimensions = dimensions;
         this.status = "Available";
-        this.borrower = "";
+        this.borrower = null;
         addImage(image);
 
         if (id == null){
@@ -37,6 +37,8 @@ public class Item {
             updateId(id);
         }
     }
+
+
 
     public String getId(){
         return this.id;
@@ -90,11 +92,11 @@ public class Item {
         return status;
     }
 
-    public void setBorrower(String borrower) {
+    public void setBorrower(Contact borrower) {
         this.borrower = borrower;
     }
 
-    public String getBorrower() {
+    public Contact getBorrower() {
         return borrower;
     }
 
