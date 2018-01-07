@@ -129,20 +129,37 @@
             android:inputType="numberDecimal"
             android:textAppearance="@android:style/TextAppearance.Medium"
             android:maxLength="24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Switch
+            android:id="@+id/available_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="toggleSwitch"
+            android:showText="true"
+            android:text="@string/status_hint"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textOff="@string/toggle_borrowed"
+            android:textOn="@string/toggle_available" />
+
+
+        <EditText
+            android:id="@+id/invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
 
     </LinearLayout>
 
-    <Switch
-        android:id="@+id/available_switch"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:checked="true"
-        android:showText="true"
-        android:onClick="toggleSwitch"
-        android:text="@string/status_hint"
-        android:textAppearance="@android:style/TextAppearance.Medium"
-        android:textOff="@string/toggle_borrowed"
-        android:textOn="@string/toggle_available" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -159,14 +176,12 @@
             android:text="@string/borrower_hint"
             android:textAppearance="@android:style/TextAppearance.Medium"/>
 
-        <EditText
-            android:id="@+id/borrower"
-            android:layout_width="fill_parent"
+        <Spinner
+            android:id="@+id/borrower_spinner"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/borrower_hint"
-            android:inputType="textPersonName"
-            android:textAppearance="@android:style/TextAppearance.Medium"
-            android:maxLength="24" />
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
 
     </LinearLayout>
 
@@ -216,7 +231,6 @@
             android:textAppearance="@android:style/TextAppearance.Medium"/>
 
     </LinearLayout>
-
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
