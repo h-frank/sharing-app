@@ -9,7 +9,7 @@
     android:paddingTop="16dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.sharingapp.MainActivity">
+    tools:context="com.example.sharingapp.ContactsActivity">
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -30,4 +30,3 @@
         tools:layout_editor_absoluteY="75dp" />
 
 </LinearLayout>
-

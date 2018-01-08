@@ -231,6 +231,7 @@
             android:textAppearance="@android:style/TextAppearance.Medium"/>
 
     </LinearLayout>
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"

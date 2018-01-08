@@ -42,5 +42,7 @@
                 android:hint="@string/status_hint"/>
 
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

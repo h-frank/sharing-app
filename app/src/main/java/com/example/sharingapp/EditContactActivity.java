@@ -84,4 +84,3 @@ public class EditContactActivity extends AppCompatActivity {
         finish();
     }
 }
-

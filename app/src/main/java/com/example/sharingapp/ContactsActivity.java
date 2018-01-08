@@ -47,6 +47,7 @@ public class ContactsActivity extends AppCompatActivity {
 
                 ArrayList<Contact> active_borrowers = item_list.getActiveBorrowers();
                 active_borrowers_list.setContacts(active_borrowers);
+
                 // Prevent contact from editing an "active" borrower.
                 if (active_borrowers_list != null) {
                     if (active_borrowers_list.hasContact(contact)) {

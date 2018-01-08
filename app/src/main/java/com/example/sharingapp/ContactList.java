@@ -21,18 +21,18 @@ import java.util.ArrayList;
 public class ContactList {
 
     private ArrayList<Contact> contacts;
-    private String FILENAME;
+    private String FILENAME = "contacts.sav";
 
     public ContactList() {
         contacts = new ArrayList<Contact>();
     }
 
     public void setContacts(ArrayList<Contact> contact_list) {
-        this.contacts = contact_list;
+        contacts = contact_list;
     }
 
     public ArrayList<Contact> getContacts() {
-        return this.contacts;
+        return contacts;
     }
 
     public ArrayList<String> getAllUsernames() {
@@ -62,8 +62,18 @@ public class ContactList {
         return contacts.size();
     }
 
+    //    public int getIndex(Contact contact) {
+//        return contacts.indexOf(contact);
+//    }
     public int getIndex(Contact contact) {
-        return contacts.indexOf(contact);
+        int pos = 0;
+        for (Contact c : contacts) {
+            if(c.getId().equals(contact.getId())) {
+                return pos;
+            }
+            pos += 1;
+        }
+        return -1;
     }
 
     public boolean hasContact(Contact contact) {
@@ -114,10 +124,10 @@ public class ContactList {
 
         for (Contact contact : contacts) {
             if(contact.getUsername().equals(username)) {
-                return true;
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
 

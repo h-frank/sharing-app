@@ -111,8 +111,8 @@ public class ItemList {
                 active_borrowers.add(borrower);
             }
         }
-
         return active_borrowers;
     }
+
 }
 

@@ -11,10 +11,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * Created by brunogtavares on 1/6/18.
  * ContactAdapter is responsible setting for what information is displayed in ListView entries.
  */
-
 public class ContactAdapter extends ArrayAdapter<Contact> {
 
     private LayoutInflater inflater;
@@ -28,8 +26,9 @@ public class ContactAdapter extends ArrayAdapter<Contact> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+
         // getItem(position) gets the "contact" at "position" in the "contacts" ArrayList
-        // (where "contacts" is a parameter in the ContactAdapter constructor as seen above ^^)
+        // (where "contacts" is a parameter in the ContactAdapter creator as seen above ^^)
         Contact contact = getItem(position);
 
         String username = "Username: " + contact.getUsername();
@@ -52,4 +51,3 @@ public class ContactAdapter extends ArrayAdapter<Contact> {
         return convertView;
     }
 }
-
