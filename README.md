@@ -62,7 +62,7 @@ You should also include any superclasses that the above classes inherit from. Ho
 * boxes should not overlap other boxes or edges
 * diagram should flow from top to bottom and left to right
 
-<div style="text-align:center"><img src="#" alt="Design Structure"/></div>
+<div style="text-align:center"><img src="https://cdn.rawgit.com/bruno78/sharing-app/d84556be/UML-diagrams/UML-diagram-sharingApp.png" alt="Design Structure"/></div>
 
 ### Week 3 - Modeling Behavior
 
@@ -93,7 +93,7 @@ Lastly, the activation of AddItemActivity should start with the call to “onCre
 
 Hint: you may need to use nested activations.
 
-<div style="text-align:center"><img src="#" alt="UML Sequence Diagram"/></div>
+<div style="text-align:center"><img src="https://cdn.rawgit.com/bruno78/sharing-app/d84556be/UML-diagrams/UML-Sequence-Diagram.png" alt="UML Sequence Diagram"/></div>
 
 #### 1.3 UML State Diagram
 
@@ -110,7 +110,7 @@ In this assignment you are to make a state diagram that captures the four possib
 
 Include arrows to indicate transitions between the states and label these transitions accordingly. And, remember to include the terminal state and to indicate the starting state.
 
-<div style="text-align:center"><img src="#" alt="UML State diagram"/></div>
+<div style="text-align:center"><img src="https://cdn.rawgit.com/bruno78/sharing-app/d84556be/UML-diagrams/UML-State-Diagram.png" alt="UML State diagram"/></div>
 
 This is part 1 of the capstone project from the specialization Software Design and Architecture offered by University of Alberta on Coursera.
 
@@ -149,6 +149,11 @@ In order to grade your assignment, you will need to submit a 5 minutes or less d
 7. Add an item to your inventory (if you don't already have an available item).
 8. Edit an item in your inventory by long clicking on the item. Click the "Available" toggle. The toggle should now say "Borrowed" and a box should appear below to indicate the name of the borrower. By default the box will show the username of the first contact in your contacts. If you have more than one contact in your contacts you can click this box and then select the desired contact.
 9. Finally, press "Save" to return to your inventory.
+
+Complete SharingApp diagram:
+
+<div style="text-align:center"><img src="https://cdn.rawgit.com/bruno78/sharing-app/d84556be/UML-diagrams/UML-diagram-sharingApp.png" alt="UML diagram sharing app"/></div>
+
 
 For this
 
