@@ -1,6 +1,6 @@
 # Sharing Items App
 
-This android app allows users to add items and shere them with their contacts.
+This android app allows users to add items and share them with their contacts.
 
 ## User stories
 
@@ -12,7 +12,7 @@ As a user, I can:
 
 Note: User can't delete an contact that is an active user.
 
-This is [part 1 - Oriented Object Design](https://www.coursera.org/learn/object-oriented-design) of the capstone project from the specialization [Software Design and Architecture offered by University of Alberta](https://www.coursera.org/specializations/software-design-architecture) on [Coursera](https://www.coursera.org).
+This is the final assignment of the course [Oriented Object Design](https://www.coursera.org/learn/object-oriented-design), and part 1 of the capstone project from the specialization [Software Design and Architecture offered by University of Alberta](https://www.coursera.org/specializations/software-design-architecture) on [Coursera](https://www.coursera.org).
 
 ## Assignments
 
