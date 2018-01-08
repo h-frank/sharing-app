@@ -1,6 +1,6 @@
 # Sharing Items App
 
-This android app allows users to share items with their contacts.
+This android app allows users to add items and shere them with their contacts.
 
 ## User stories
 
@@ -11,6 +11,8 @@ As a user, I can:
 * add, edit, and delete a contact, contact's name, and email address.
 
 Note: User can't delete an contact that is an active user.
+
+This is [part 1 - Oriented Object Design](https://www.coursera.org/learn/object-oriented-design) of the capstone project from the specialization [Software Design and Architecture offered by University of Alberta](https://www.coursera.org/specializations/software-design-architecture) on [Coursera](https://www.coursera.org).
 
 ## Assignments
 
@@ -62,7 +64,9 @@ You should also include any superclasses that the above classes inherit from. Ho
 * boxes should not overlap other boxes or edges
 * diagram should flow from top to bottom and left to right
 
-<div style="text-align:center"><img src="https://cdn.rawgit.com/bruno78/sharing-app/d84556be/UML-diagrams/UML-diagram-sharingApp.png" alt="Design Structure"/></div>
+### Solution (Add Items Only UML Class Diagram):
+
+<div style="text-align:center"><img src="https://cdn.rawgit.com/bruno78/sharing-app/c3a7b6d9/UML-diagrams/UML-Class-Diagram-Items-Only.png" alt="Add Items only UML class diagram"/></div>
 
 ### Week 3 - Modeling Behavior
 
@@ -93,6 +97,8 @@ Lastly, the activation of AddItemActivity should start with the call to “onCre
 
 Hint: you may need to use nested activations.
 
+### Solution:
+
 <div style="text-align:center"><img src="https://cdn.rawgit.com/bruno78/sharing-app/d84556be/UML-diagrams/UML-Sequence-Diagram.png" alt="UML Sequence Diagram"/></div>
 
 #### 1.3 UML State Diagram
@@ -110,9 +116,9 @@ In this assignment you are to make a state diagram that captures the four possib
 
 Include arrows to indicate transitions between the states and label these transitions accordingly. And, remember to include the terminal state and to indicate the starting state.
 
-<div style="text-align:center"><img src="https://cdn.rawgit.com/bruno78/sharing-app/d84556be/UML-diagrams/UML-State-Diagram.png" alt="UML State diagram"/></div>
+### Solution:
 
-This is part 1 of the capstone project from the specialization Software Design and Architecture offered by University of Alberta on Coursera.
+<div style="text-align:center"><img src="https://cdn.rawgit.com/bruno78/sharing-app/d84556be/UML-diagrams/UML-State-Diagram.png" alt="UML State diagram"/></div>
 
 ### Week 4 - Translate UML class diagrams to equivalent Java code.
 
@@ -154,7 +160,13 @@ Complete SharingApp diagram:
 
 <div style="text-align:center"><img src="https://cdn.rawgit.com/bruno78/sharing-app/d84556be/UML-diagrams/UML-diagram-sharingApp.png" alt="UML diagram sharing app"/></div>
 
+### Solution:
+**Part 1**
 
-For this
+[Contact.java](https://github.com/bruno78/sharing-app/blob/master/app/src/main/java/com/example/sharingapp/Contact.java)
 
-The video of the app can be found [here](https://www.youtube.com/watch?v=c5QYnftN8k0)
+[ContactList.java](https://github.com/bruno78/sharing-app/blob/master/app/src/main/java/com/example/sharingapp/ContactList.java)
+
+**Part 2**
+
+[video submission](https://www.youtube.com/watch?v=c5QYnftN8k0)
